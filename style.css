@@ -1,0 +1,139 @@
+:root {
+    --main-color: rgba(31, 25, 25, 0.767); /* Default color */
+}
+*{
+    padding: 0;
+    margin: 0;
+    color:var(--main-color);
+    font-family: Arial;
+}
+#main{
+    /* color:black; */
+    height:100vh;
+    width:100vw;
+    background-color: rgb(227, 228, 212);
+}
+#main-btn{
+    position:fixed;
+    right: 10px;
+    bottom: 10px;
+    height:50px;
+    width:50px;
+    font-size: large;
+    background-color: white;
+    padding:10px;
+   
+    border-radius: 50%;
+    cursor:pointer;
+}
+#main-btn:hover::after {
+    content: "Turn On Dark Mode";
+    position: absolute;
+    bottom: calc(100% + 5px);
+    right: 0%;
+    transform: translateX(-0%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 10px;
+    white-space: nowrap;
+    z-index: 999; 
+    display: block; 
+}
+nav{
+    background-color: rgba(124, 115, 115, 0.815);
+}
+ul{
+    /* background-color: red; */
+    height:11vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+li{
+    font-weight: bold;
+    font-size: large;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    padding : 0% 18.5%;
+    /* background-color: red; */
+}
+.main2{
+    padding : 0% 5%;
+    /* background-color: red; */
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+#page-2{
+    /* background-color: red; */
+    height:87vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image{
+    height:100%;
+    display: flex;
+    align-items: end;
+    /* background-color: blue; */
+}
+.image img{
+    height:90%;
+    /* -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);  */
+}
+.text{
+    line-height: 70px;
+    /* background-color: red; */
+}
+.text p{
+    font-size: 30px;
+}
+.text h1{
+    font-size: 80px;
+    color:rgb(152, 152, 32);
+}
+.text h3{
+    font-size: 30px;
+}
+#btn-1{
+    font-size:16px;
+    font-weight: bold;
+    background-color: rgba(218, 144, 59, 0.869);
+    padding:10px;
+    border:none;
+    border-radius : 5%;
+}
+#btn-1:hover{
+    cursor:pointer;
+}
+.text h5{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.text i{
+    font-size: 40px;
+    padding-right:20px;
+}
+.text2{
+    width:60%;
+}
+.text2 h1{
+    font-size: 80px;
+    color:rgb(152, 152, 32);
+}
+.text2 .blog{
+    line-height: 120%;
+    width: 100%;
+    font-size: 25px;
+}
