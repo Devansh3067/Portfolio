@@ -84,13 +84,13 @@ a{
 .image{
     height:100%;
     display: flex;
-    align-items: end;
+    align-items: center;
     /* background-color: blue; */
 }
 .image img{
-    height:90%;
-    /* -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);  */
+    height:39vw;
+    /* width:39vw; */
+
 }
 .text{
     line-height: 70px;
