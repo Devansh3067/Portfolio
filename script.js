@@ -1,4 +1,4 @@
-let modeBtn = document.querySelector("#main-btn");
+let modeBtn = document.querySelector("#mode-btn");
 let main = document.querySelector("#main");
 const root = document.documentElement;
 
